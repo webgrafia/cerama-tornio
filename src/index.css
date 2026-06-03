@@ -1369,9 +1369,9 @@ body, html {
   }
 
   .glaze-panel-collapsed-trigger {
+    top: 88px; /* Positioned in the top right to prevent overlapping the 3D vase */
     right: 16px;
-    bottom: 170px; /* Elevated to float safely above the controls and 'Decora & Smalta' title */
-    top: auto;
+    bottom: auto;
     left: auto;
   }
 

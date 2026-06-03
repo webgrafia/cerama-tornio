@@ -71,7 +71,12 @@ export const GlazeSelector: React.FC = () => {
             <button
               key={glaze.id}
               className={`glaze-card-option ${isSelected ? 'selected' : ''}`}
-              onClick={() => selectGlaze(glaze.id)}
+              onClick={() => {
+                selectGlaze(glaze.id);
+                if (window.innerWidth <= 921) {
+                  setIsOpen(false);
+                }
+              }}
             >
               {/* Colored Swatch circle */}
               <div 
