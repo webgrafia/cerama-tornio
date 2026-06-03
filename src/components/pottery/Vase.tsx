@@ -383,6 +383,7 @@ export const Vase: React.FC = () => {
         </latheGeometry>
         <meshPhysicalMaterial
           ref={materialRef}
+          map={getClayColorMap()}
           roughness={0.5}
           metalness={0.05}
           clearcoat={0.15}
