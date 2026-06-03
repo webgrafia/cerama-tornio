@@ -14,10 +14,10 @@ export const GlazeSelector: React.FC = () => {
       <button
         className="glaze-panel-collapsed-trigger animate-slide-up"
         onClick={() => setIsOpen(true)}
-        title="Mostra palette smalti"
+        title="Scegli un colore"
       >
         <Eye size={16} />
-        <span>Mostra Palette Smalti</span>
+        <span>Scegli un colore</span>
       </button>
     );
   }
