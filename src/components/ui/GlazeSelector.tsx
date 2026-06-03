@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { usePotteryStore, GLAZE_PRESETS } from '../../store/usePotteryStore';
 import type { GlazePreset } from '../../store/usePotteryStore';
-import { ShoppingBag, Sparkles, HelpCircle, Eye, EyeOff } from 'lucide-react';
+import { ShoppingBag, Sparkles, HelpCircle, Eye, X } from 'lucide-react';
 
 export const GlazeSelector: React.FC = () => {
   const { step, selectedGlaze, selectGlaze, brushSize, setBrushSize } = usePotteryStore();
@@ -55,7 +55,7 @@ export const GlazeSelector: React.FC = () => {
           onClick={() => setIsOpen(false)}
           title="Nascondi selettore"
         >
-          <EyeOff size={16} />
+          <X size={16} />
         </button>
       </div>
       
