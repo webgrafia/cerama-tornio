@@ -1369,7 +1369,7 @@ body, html {
   }
 
   .glaze-panel-collapsed-trigger {
-    top: 76px; /* Positioned right under the header in the top right */
+    top: 12px; /* Positioned right under the header in the top right */
     right: 16px;
     bottom: auto;
     left: auto;
